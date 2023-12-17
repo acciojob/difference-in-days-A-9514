@@ -1,5 +1,6 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
+return date2.getTime() - date1.getTime();   
 };
 
 // Do not change the code below.
